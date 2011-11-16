@@ -8,14 +8,14 @@ How to use
 In order to use the plugin:
 
 * install the plugin
-* `'mark'` your domain classes by annotating them with the `grails.persistence.Entity` annotation (which unfortunately adds a ton of grails and spring dependencies to your code :()
+* _mark_ your domain classes by annotating them with the `grails.persistence.Entity` annotation (which unfortunately adds a ton of grails and spring dependencies to your code :()
 * define a `grails.external.domain.packages` property in your config file (`Config.groovy`). Example:
-
-    grails.external.domain.packages = ['com.acme.domain1', 'com.acme.domain2']
+      
+        grails.external.domain.packages = ['com.acme.domain1', 'com.acme.domain2']
 
 How to package the plugin
 =========================
 
 Simply run:
 
-`grails package-plugin`
+    grails package-plugin
